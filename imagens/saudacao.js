@@ -1,21 +1,16 @@
 (function(){
-    const nomeUsuario= null
-    const elemento =document.querySelector(".top-bar p")
+    const nomeUsuario ="Daniel"
 
-    if(nomeUsuario){
-         //document.querySelector(".top-bar p").textContent ="Bem-vindo(a)," +nomeUsuario
-   
-    console.log(elemento.textContent)
-   // elemento.textContent ="Bem-vindo(a)," +nomeUsuario
-   elemento.innerHTML += "<b>" + nomeUsuario +"</b>"
-    }else{
-        //elemento.parentElement.style.display ="none"
-        //elemento.remove()
-        const elementoParaRemover=elemento.parentElement
-        elementoParaRemover.parentElement.removeChild( elementoParaRemover)
+    if(nomeUsuario) {
+        const topBarElemento=document.createElement("div")
+        topBarElemento.className="top-bar"
+        topBarElemento.innerHTML =<p>OLÁ ,<b> $(nomeUsuario)</b></p>
+
+        //elementoPai.insertBefore(novoElemento,elementoReferencia)
+        constelementoPai=document.querySelector(".hero")
+        elementoPai.insertBefore(topBarElemento,elementoPai.firstElementChild)
+        console.log(elementoPai,firstElementChild)
+
     }
 
-    console.log(elemento)
-    
 })()
-
