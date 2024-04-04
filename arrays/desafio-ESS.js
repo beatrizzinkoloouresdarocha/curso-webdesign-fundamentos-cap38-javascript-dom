@@ -1,8 +1,8 @@
 function sum (){
-    const arr =[]
+    const numbers =[]
     for (let i = 0; i  <arguments.length;i++){
-        arr.push(arguments[i])
+        numbers.push(arguments[i])
     }
-    console.log(arr)
+    console.log(numbers)
 }
 sum(1,2,3,4,5)
