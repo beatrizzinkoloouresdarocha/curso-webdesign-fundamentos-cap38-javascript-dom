@@ -6,7 +6,10 @@ function sum (){
     } ,0)
 }
 function avarege(){
-    return 0
+  return sum(...arguments)/arguments.length
 }
  let soma=sum(1,2,3,4,5)
- console.log(soma)
+    console.log(soma)
+
+ let media =  avarege(1,2,3,4,5)
+    console.log(media)
