@@ -9,7 +9,7 @@ arr.filter (function(el,i,_arr) {
 console.log(el)
 console.log(i)
 console.log(arr)
-return true
+return false
 })
 
-console.log(sohNumeros)
+console.log(arr)
