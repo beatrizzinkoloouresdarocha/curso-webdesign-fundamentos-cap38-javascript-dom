@@ -5,8 +5,11 @@ let sohNumeros =arr.every(function(el){
     return typeof el === "number"
 })
 
-arr.filter (function(el,i,_arr){})
+arr.filter (function(el,i,_arr) {
 console.log(el)
 console.log(i)
+console.log(arr)
+return true
+})
 
 console.log(sohNumeros)
